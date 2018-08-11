@@ -1,0 +1,11 @@
+{
+    "scripts": {
+        "start": "mkdir -p dist && node main.js ./data/*.csv > dist/tocfl.csv"
+    },
+    "devDependencies": {
+        "@types/node": "^10.5.8"
+    },
+    "dependencies": {
+        "parse-cc-cedict": "^2.1.0"
+    }
+}
