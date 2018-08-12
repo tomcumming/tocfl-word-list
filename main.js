@@ -49,25 +49,30 @@ const values = rawValues
     const dictionaryDefs = cccedict.parseFile(dictionaryFile);
     let dictionary = new Map();
     for(const def of dictionaryDefs) {
-        dictionary.set(def.traditional, def);
+        if(dictionary.has(def.traditional))
+            dictionary.get(def.traditional).push(def);
+        else
+            dictionary.set(def.traditional, [ def ]);
+
         if(def.traditional !== def.simplified)
-            dictionary.set(def.simplified, def);
+            dictionary.set(def.simplified, dictionary.get(def.traditional));
     }
 
     function findInDic(word) {
-        let def = dictionary.get(word);
+        let defs = dictionary.get(word);
 
-        if(def === undefined) {
+        if(defs === undefined) {
             process.stderr.write(`Can't find in dictionary: ${word}\n`);
-            def = {
-                pronunciation: '*unknown*',
-                definitions: []
-            };
+            defs = [];
         }
 
         return {
-            pinyin: def.pronunciation,
-            translations: def.definitions
+            pinyin: defs
+                .map(d => d.pronunciation)
+                .join(' '),
+            translations: defs
+                .map(d => d.definitions)
+                .reduce((p, c) => p.concat(c), [])
         };
     }
 
