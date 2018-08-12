@@ -67,8 +67,8 @@ const values = rawValues
         }
 
         return {
-            pinyin: defs
-                .map(d => d.pronunciation)
+            pinyin: Array.from(
+                    new Set(defs.map(d => d.pronunciation.toLowerCase())))
                 .join(' '),
             translations: defs
                 .map(d => d.definitions)
