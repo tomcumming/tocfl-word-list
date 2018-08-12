@@ -2,6 +2,8 @@
 
 [The CSV file can be downloaded from here](https://raw.githubusercontent.com/tomcumming/tocfl-word-list/master/dist/tocfl.csv)
 
+[The TSV file (for Anki) can be downloaded from here](https://raw.githubusercontent.com/tomcumming/tocfl-word-list/master/dist/tocfl.tsv)
+
 This list was automatically compiled from the TOCFL word-list spreadsheet.
 * It includes all word lists in order of difficulty.
 * It adds English translations from [CC-CEDICT](https://cc-cedict.org)

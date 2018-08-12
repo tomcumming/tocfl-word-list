@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "start": "mkdir -p dist && node main.js ./data/*.csv > dist/tocfl.csv"
+        "start": "mkdir -p dist && node main.js ./data/*.csv > dist/tocfl.csv && node main.js --tabs ./data/*.csv > dist/tocfl.tsv"
     },
     "devDependencies": {
         "@types/node": "^10.5.8"

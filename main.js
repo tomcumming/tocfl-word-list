@@ -25,8 +25,18 @@ function readCsv(fileName) {
         });
 }
 
+let seperationCharacter = ',';
+let files;
+
+if(process.argv.length > 2 && process.argv[2] === '--tabs') {
+    seperationCharacter = '\t';
+    files = process.argv.slice(3);
+} else {
+    files = process.argv.slice(2);
+}
+
 /** @type {{word: string, pinyin: string}[]} */
-const rawValues = process.argv.slice(2)
+const rawValues = files
     .map(readCsv)
     .reduce((p, c) => p.concat(c), []);
 
@@ -99,13 +109,13 @@ const values = rawValues
             value.translations.slice(1).join(', ')
         ]
             .map(csvEscape)
-            .join(',');
+            .join(seperationCharacter);
 
         process.stdout.write(line + '\n');
     }
 
     // write csv header
-    process.stdout.write(`"Word","Pinyin","First Translation","Other Translations"\n`);
+    process.stdout.write(['"Word"', '"Pinyin"', '"First Translation"', '"Other Translations"'].join(seperationCharacter) + '\n');
 
     for(const value of values) {
         /** @type {string[]} */
