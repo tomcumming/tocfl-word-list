@@ -95,7 +95,7 @@ const values = rawValues
         return `"${value.replace(/"/g, '""')}"`;
     }
 
-    /** @param {{word: string, pinyin: string, translations: string[]}} value */
+    /** @param {{word: string, pinyin: string, translations: string[], parent?: {word: string, pinyin: string}}} value */
     function writeValueLine(value) {
         if(done.has(value.word))
             return;
@@ -106,7 +106,10 @@ const values = rawValues
             value.word,
             value.pinyin,
             value.translations.slice(0, 1).join(''),
-            value.translations.slice(1).join(', ')
+            value.translations.slice(1).join(', '),
+            value.parent !== undefined
+                ? `${value.parent.word} (${value.parent.pinyin})`
+                : ''
         ]
             .map(csvEscape)
             .join(seperationCharacter);
@@ -115,7 +118,7 @@ const values = rawValues
     }
 
     // write csv header
-    process.stdout.write(['"Word"', '"Pinyin"', '"First Translation"', '"Other Translations"'].join(seperationCharacter) + '\n');
+    process.stdout.write(['"Word"', '"Pinyin"', '"First Translation"', '"Other Translations"', '"Parent"'].join(seperationCharacter) + '\n');
 
     for(const value of values) {
         /** @type {string[]} */
@@ -141,7 +144,8 @@ const values = rawValues
                     pinyin: lookup.has(char)
                         ? lookup.get(char).pinyin
                         : def.pinyin,
-                    translations: def.translations
+                    translations: def.translations,
+                    parent: value
                 });
             }
         }
