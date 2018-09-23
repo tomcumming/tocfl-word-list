@@ -31,6 +31,8 @@ let lines = contents
     process.stdout.write(headers);
 }
 
+let written = new Set();
+
 for(const line of lines) {
     const cells = line
         .split('\t')
@@ -49,6 +51,11 @@ for(const line of lines) {
 
     if(def.traditional === def.simplified)
         continue; // same as simplified
+
+    if(written.has(def.simplified))
+        continue; // duplicate
+
+    written.add(def.simplified);
 
     const parts = [def.simplified, def.traditional, pinyin, level, parent]
         .map(csvEscape);
