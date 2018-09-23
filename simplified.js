@@ -11,17 +11,21 @@ let seperationCharacter = ',';
 if(process.argv.length > 2 && process.argv[2] === '--tabs')
     seperationCharacter = '\t';
 
-    let charLookup = new Map();
+/** @type Map<string, Definition> */
+let tradDefLookup = new Map();
+
 const dictionaryDefs = cccedict.parseFile(dictionaryFile);
 for(const def of dictionaryDefs)
-    charLookup.set(def.traditional, def);
+    tradDefLookup.set(def.traditional, def);
 
 const fileName = './dist/tocfl.tsv';
 const contents = fs.readFileSync(`${fileName}`, 'utf8');
 
 let lines = contents
     .split('\n')
-    .slice(1);
+    .slice(1)
+    .map(line => line.split('\t').map(unEscape))
+    .filter(cells => cells.length > 0); // remove final new-line;
 
 // write header
 {
@@ -31,33 +35,71 @@ let lines = contents
     process.stdout.write(headers);
 }
 
+/** Map<string, string[]> */
+let tradEntreesLookup = new Map();
+for(const cells of lines)
+    tradEntreesLookup.set(cells[0], cells);
+
+
+/** @type Map<string, string[][]> */
+let simpLookup = new Map();
+for(const cells of lines) {
+    const [ word ] = cells;
+
+    const def = tradDefLookup.get(word);
+    if(def === undefined)
+        continue; // cant find def
+
+    if(def.traditional === def.simplified)
+        continue; // same as simplified
+
+    const entree = tradEntreesLookup.get(word);
+    if(entree === undefined)
+        throw new Error(`Could not find '${word}'`);
+
+    if(simpLookup.has(def.simplified))
+        simpLookup.get(def.simplified).push(entree);
+    else
+        simpLookup.set(def.simplified, [entree]);
+}
+
 let written = new Set();
 
-for(const line of lines) {
-    const cells = line
-        .split('\t')
-        .map(unEscape);
-
-    if(cells.length === 0)
-        continue; // final new line
+for(const cells of lines) {
 
     const [ word, pinyin, level, firstTrn, trns, parent ] = cells;
 
-    const def = charLookup.get(word);
+    const def = tradDefLookup.get(word);
     if(def === undefined) {
         process.stderr.write(`Could not find definition for '${word}'\n`);
         continue;
     }
 
-    if(def.traditional === def.simplified)
-        continue; // same as simplified
+    if(def.simplified === def.traditional)
+        continue;
 
     if(written.has(def.simplified))
         continue; // duplicate
 
     written.add(def.simplified);
 
-    const parts = [def.simplified, def.traditional, pinyin, level, parent]
+    const simps = simpLookup.get(def.simplified);
+    if(simps === undefined)
+        continue;
+
+    const trads = Array.from(new Set(simps.map(s => s[0])))
+        .join(', ');
+
+    const pinyins = Array.from(new Set(simps.map(s => s[1].toLowerCase().split(' ')).reduce((p, c) => p.concat(c), [])))
+        .join(' ');
+
+    const levels = Array.from(new Set(simps.map(s => s[2])))
+        .join(', ');
+
+    const parents = Array.from(new Set(simps.map(s => s[5]).filter(x => x !== '')))
+        .join(', ');
+
+    const parts = [def.simplified, trads, pinyins, levels, parents]
         .map(csvEscape);
 
     process.stdout.write(parts.join(seperationCharacter) + '\n');
