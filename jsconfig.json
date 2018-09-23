@@ -4,6 +4,8 @@
         "target": "es2015"
     },
     "files": [
-        "./main.js"
+        "./escape.js",
+        "./main.js",
+        "./simplified.js"
     ]
 }

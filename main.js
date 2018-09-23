@@ -1,6 +1,8 @@
 const fs = require('fs');
 const cccedict = require('parse-cc-cedict');
 
+const { csvEscape } = require('./escape');
+
 const dataDir = './data';
 const dictionaryFile = `${dataDir}/cedict_1_0_ts_utf-8_mdbg.txt`;
 
@@ -91,11 +93,6 @@ const values = rawValues
     /** @type{Set<string>} */
     let done = new Set();
     const lookup = new Map(values.map(v => [v.word, v]));
-
-    //** @param {string} value */
-    function csvEscape(value) {
-        return `"${value.replace(/"/g, '""')}"`;
-    }
 
     /** @param {{word: string, pinyin: string, translations: string[], level: number, parent?: {word: string, pinyin: string}}} value */
     function writeValueLine(value) {

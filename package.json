@@ -1,6 +1,8 @@
 {
     "scripts": {
-        "start": "mkdir -p dist && node main.js ./data/*.csv > dist/tocfl.csv && node main.js --tabs ./data/*.csv > dist/tocfl.tsv"
+        "tocfl": "mkdir -p dist && node main.js ./data/*.csv > dist/tocfl.csv && node main.js --tabs ./data/*.csv > dist/tocfl.tsv",
+        "simplified": "node simplified.js > ./dist/simplified.csv && node simplified.js --tabs > ./dist/simplified.tsv",
+        "start": "npm run tocfl && npm run simplified"
     },
     "devDependencies": {
         "@types/node": "^10.5.8"
