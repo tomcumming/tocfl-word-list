@@ -6,9 +6,10 @@ const dictionaryFile = `${dataDir}/cedict_1_0_ts_utf-8_mdbg.txt`;
 
 /** Read the word and pinyin columns from a csv file
  * @param {string} fileName
- * @returns {{word: string, pinyin: string}[]}
+ * @returns {{word: string, pinyin: string, level: number }[]}
  */
 function readCsv(fileName) {
+    const level = parseInt(/^.*\/(\d+)\.csv$/.exec(fileName)[1]);
     const contents = fs.readFileSync(`${fileName}`, 'utf8');
     const lines = contents.split('\n');
     const headers = lines[0].split(',');
@@ -20,8 +21,8 @@ function readCsv(fileName) {
                 throw new Error(`parse error for line: ${fileName}: ${JSON.stringify(cells)}`);
 
             return headers.length === 8
-                ? { word: cells[1].trim(), pinyin: cells[3].trim() }
-                : { word: cells[0].trim(), pinyin: cells[2].trim() };
+                ? { word: cells[1].trim(), pinyin: cells[3].trim(), level }
+                : { word: cells[0].trim(), pinyin: cells[2].trim(), level };
         });
 }
 
@@ -35,7 +36,7 @@ if(process.argv.length > 2 && process.argv[2] === '--tabs') {
     files = process.argv.slice(2);
 }
 
-/** @type {{word: string, pinyin: string}[]} */
+/** @type {{word: string, pinyin: string, level: number}[]} */
 const rawValues = files
     .map(readCsv)
     .reduce((p, c) => p.concat(c), []);
@@ -49,9 +50,10 @@ const sanitizeValue = v => v
     .replace(/['" ]/g, '') // quotes
 
 const values = rawValues
-    .map(({ word, pinyin }) => ({
+    .map(({ word, pinyin, level }) => ({
         word: sanitizeValue(word),
-        pinyin: sanitizeValue(pinyin)
+        pinyin: sanitizeValue(pinyin),
+        level: level
     }));
 
 // This is where we output the new CSV file
@@ -95,7 +97,7 @@ const values = rawValues
         return `"${value.replace(/"/g, '""')}"`;
     }
 
-    /** @param {{word: string, pinyin: string, translations: string[], parent?: {word: string, pinyin: string}}} value */
+    /** @param {{word: string, pinyin: string, translations: string[], level: number, parent?: {word: string, pinyin: string}}} value */
     function writeValueLine(value) {
         if(done.has(value.word))
             return;
@@ -105,6 +107,7 @@ const values = rawValues
         const line = [
             value.word,
             value.pinyin,
+            value.level.toString(),
             value.translations.slice(0, 1).join(''),
             value.translations.slice(1).join(', '),
             value.parent !== undefined
@@ -118,7 +121,7 @@ const values = rawValues
     }
 
     // write csv header
-    process.stdout.write(['"Word"', '"Pinyin"', '"First Translation"', '"Other Translations"', '"Parent"'].join(seperationCharacter) + '\n');
+    process.stdout.write(['"Word"', '"Pinyin"', '"Level"', '"First Translation"', '"Other Translations"', '"Parent"'].join(seperationCharacter) + '\n');
 
     for(const value of values) {
         /** @type {string[]} */
@@ -145,7 +148,8 @@ const values = rawValues
                         ? lookup.get(char).pinyin
                         : def.pinyin,
                     translations: def.translations,
-                    parent: value
+                    parent: value,
+                    level: value.level
                 });
             }
         }
