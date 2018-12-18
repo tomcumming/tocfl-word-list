@@ -107,9 +107,8 @@ const values = rawValues
             value.level.toString(),
             value.translations.slice(0, 1).join(''),
             value.translations.slice(1).join(', '),
-            value.parent !== undefined
-                ? `${value.parent.word} (${value.parent.pinyin})`
-                : ''
+            value.parent !== undefined ? value.parent.word : '',
+            value.parent !== undefined ? value.parent.pinyin : ''
         ]
             .map(csvEscape)
             .join(seperationCharacter);
@@ -118,7 +117,7 @@ const values = rawValues
     }
 
     // write csv header
-    process.stdout.write(['"Word"', '"Pinyin"', '"Level"', '"First Translation"', '"Other Translations"', '"Parent"'].join(seperationCharacter) + '\n');
+    process.stdout.write(['"Word"', '"Pinyin"', '"Level"', '"First Translation"', '"Other Translations"', '"ParentWord"', '"ParentPinyin"'].join(seperationCharacter) + '\n');
 
     for(const value of values) {
         /** @type {string[]} */
