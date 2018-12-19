@@ -57,7 +57,13 @@ for(const cells of lines) {
     const allWithPinyin = pinyinLookup.get(pinyin);
 
     const words = allWithPinyin.map(c => c[0]).join(', ');
-    const definitions = allWithPinyin.map(c => `${c[0]} (${c[1]}) ${c[4]}`).join('\n');
+    const definitions = allWithPinyin.map(c => {
+        // This is never not empty... but never mind
+        const other = c[2] !== ''
+            ? ` (${c[2]})`
+            : '';
+        return `${c[0]}${other} ${c[4]}`;
+    }).join('\n');
 
     const parts = [pinyin, word, words, definitions]
         .map(csvEscape);
