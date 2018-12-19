@@ -90,13 +90,13 @@ for(const cells of lines) {
     const trads = Array.from(new Set(simps.map(s => s[0])))
         .join(', ');
 
-    const pinyins = Array.from(new Set(simps.map(s => s[1].toLowerCase().split(' ')).reduce((p, c) => p.concat(c), [])))
-        .join(' ');
-
-    const levels = Array.from(new Set(simps.map(s => s[2])))
+    const pinyins = Array.from(new Set(simps.map(s => s[1]))).reduce((p, c) => p.concat(c), [])
         .join(', ');
 
-    const parents = Array.from(new Set(simps.map(s => s[5]).filter(x => x !== '')))
+    const levels = Array.from(new Set(simps.map(s => s[3])))
+        .join(', ');
+
+    const parents = Array.from(new Set(simps.map(s => s[6]).filter(x => x !== '')))
         .join(', ');
 
     const parts = [def.simplified, trads, pinyins, levels, parents]

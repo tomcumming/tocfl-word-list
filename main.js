@@ -2,6 +2,7 @@ const fs = require('fs');
 const cccedict = require('parse-cc-cedict');
 
 const { csvEscape } = require('./escape');
+const { numberedToAccent } = require('./pinyin');
 
 const dataDir = './data';
 const dictionaryFile = `${dataDir}/cedict_1_0_ts_utf-8_mdbg.txt`;
@@ -94,7 +95,7 @@ const values = rawValues
     let done = new Set();
     const lookup = new Map(values.map(v => [v.word, v]));
 
-    /** @param {{word: string, pinyin: string, translations: string[], level: number, parent?: {word: string, pinyin: string}}} value */
+    /** @param {{word: string, pinyin: string, otherPinyin: string, translations: string[], level: number, parent?: {word: string, pinyin: string}}} value */
     function writeValueLine(value) {
         if(done.has(value.word))
             return;
@@ -104,6 +105,7 @@ const values = rawValues
         const line = [
             value.word,
             value.pinyin,
+            value.otherPinyin,
             value.level.toString(),
             value.translations.slice(0, 1).join(''),
             value.translations.slice(1).join(', '),
@@ -117,7 +119,7 @@ const values = rawValues
     }
 
     // write csv header
-    process.stdout.write(['"Word"', '"Pinyin"', '"Level"', '"First Translation"', '"Other Translations"', '"ParentWord"', '"ParentPinyin"'].join(seperationCharacter) + '\n');
+    process.stdout.write(['"Word"', '"Pinyin"', '"OtherPinyin"', '"Level"', '"First Translation"', '"Other Translations"', '"ParentWord"', '"ParentPinyin"'].join(seperationCharacter) + '\n');
 
     for(const value of values) {
         /** @type {string[]} */
@@ -134,15 +136,17 @@ const values = rawValues
             {
                 const def = findInDic(char);
 
-                if(lookup.has(char)) {
-                    pinyin = lookup.get(char).pinyin;
-                }
+                const pinyins = lookup.has(char)
+                    ? [lookup.get(char).pinyin]
+                    : def.pinyin.split(' ').map(numberedToAccent);
+
+                if(pinyins.length === 0)
+                    pinyins = [''];
 
                 writeValueLine({
                     word: char,
-                    pinyin: lookup.has(char)
-                        ? lookup.get(char).pinyin
-                        : def.pinyin,
+                    pinyin: pinyins[0],
+                    otherPinyin: pinyins.slice(1).join(' '),
                     translations: def.translations,
                     parent: value,
                     level: value.level
@@ -154,6 +158,7 @@ const values = rawValues
 
         writeValueLine({
             ...value,
+            otherPinyin: '',
             translations: def.translations
         });
     }
