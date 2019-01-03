@@ -17,7 +17,7 @@
 "rìběn"	"日本"	"日本"	"日本 Japan"
 "táiwān"	"台灣"	"台灣"	"台灣 variant of 臺灣|台湾[Tai2 wan1]"
 "míngzi"	"名字"	"名字"	"名字 name (of a person or thing)"
-"jiā"	"家"	"家"	"家 see 傢伙|家伙[jia1 huo5]"
+"jiā"	"家"	"家"	"家 home"
 "diànhuà"	"電話"	"電話"	"電話 telephone"
 "xiànzài"	"現在"	"現在"	"現在 now"
 "jīnnián"	"今年"	"今年"	"今年 this year"
@@ -31,7 +31,7 @@
 "wǎnshang"	"晚上"	"晚上"	"晚上 evening"
 "yī"	"一"	"一"	"一 one"
 "èr"	"二"	"二"	"二 two"
-"sān"	"三"	"三"	"三 surname San"
+"sān"	"三"	"三"	"三 three"
 "sì"	"四"	"四, 賜"	"四 four
 賜 to confer"
 "wǔ"	"五"	"五"	"五 five"
@@ -46,7 +46,7 @@
 鈴 (small) bell"
 "liǎng"	"兩"	"兩"	"兩 two"
 "shíhòu"	"時候"	"時候"	"時候 time"
-"bǎi"	"百"	"百"	"百 surname Bai"
+"bǎi"	"百"	"百"	"百 hundred"
 "bàn"	"半"	"半, 拌"	"半 half
 拌 to mix"
 "bàba"	"爸爸"	"爸爸"	"爸爸 (informal) father"
@@ -66,7 +66,7 @@
 "zhù"	"住"	"住, 駐"	"住 to live
 駐 to halt"
 "lái"	"來"	"來"	"來 to come"
-"shì"	"是"	"是"	"是 variant of 是[shi4]"
+"shì"	"是"	"是"	"是 (used in given names)"
 "xìng"	"姓"	"姓"	"姓 family name"
 "juéde"	"覺得"	"覺得"	"覺得 to think"
 "xǐhuān"	"喜歡"	"喜歡"	"喜歡 to like"
@@ -91,14 +91,14 @@
 "xiě"	"寫"	"寫"	"寫 to write"
 "tīng"	"聽"	"聽"	"聽 to listen"
 "liànxí"	"練習"	"練習"	"練習 to practice"
-"néng"	"能"	"能"	"能 surname Neng"
+"néng"	"能"	"能"	"能 can"
 "kěyǐ"	"可以"	"可以"	"可以 can"
 "shàngkè"	"上課"	"上課"	"上課 to go to class"
 "zhīdào"	"知道"	"知道"	"知道 to know"
 "diànshì"	"電視"	"電視"	"電視 television"
-"shuǐ"	"水"	"水"	"水 surname Shui"
+"shuǐ"	"水"	"水"	"水 water"
 "zài"	"再"	"再"	"再 again"
-"shū"	"書"	"書, 輸, 梳"	"書 abbr. for 書經|书经[Shu1 jing1]
+"shū"	"書"	"書, 輸, 梳"	"書 book
 輸 to lose
 梳 a comb"
 "diànyǐng"	"電影"	"電影"	"電影 movie"
@@ -112,11 +112,11 @@
 "dōngxi"	"東西"	"東西"	"東西 east and west"
 "ba"	"吧"	"吧"	"吧 bar (loanword) (serving drinks, or providing Internet access etc)"
 "ne"	"呢"	"呢"	"呢 particle indicating that a previously asked question is to be applied to the preceding word (""What about ...?"", ""And ...?"")"
-"ma"	"嗎"	"嗎, 嘛"	"嗎 see 嗎啡|吗啡, morphine
+"ma"	"嗎"	"嗎, 嘛"	"嗎 (question particle for ""yes-no"" questions)
 嘛 modal particle indicating that sth is obvious"
 "zhǎo"	"找"	"找"	"找 to try to find"
 "zuò"	"做"	"做, 坐"	"做 to do
-坐 surname Zuo"
+坐 to sit"
 "zàijiàn"	"再見"	"再見"	"再見 goodbye"
 "zěnmeyàng"	"怎麼樣"	"怎麼樣"	"怎麼樣 how?"
 "jiào"	"叫"	"叫"	"叫 variant of 叫[jiao4]"
@@ -124,13 +124,13 @@
 "duìbuqǐ"	"對不起"	"對不起"	"對不起 unworthy"
 "qǐngwèn"	"請問"	"請問"	"請問 Excuse me, may I ask...?"
 "zhè"	"這"	"這"	"這 this"
-"nà"	"那"	"那"	"那 surname Na"
+"nà"	"那"	"那"	"那 that"
 "gōnggòngqìchē"	"公共汽車"	"公共汽車"	"公共汽車 bus"
 "dào"	"到"	"到"	"到 to (a place)"
 "qù"	"去"	"去"	"去 to go"
 "huí"	"回"	"回"	"回 variant of 迴|回[hui2]"
 "kāichē"	"開車"	"開車"	"開車 to drive a car"
-"qián"	"錢"	"錢"	"錢 surname Qian"
+"qián"	"錢"	"錢"	"錢 coin"
 "duōshǎo"	"多少"	"多少"	"多少 number"
 "gěi"	"給"	"給"	"給 to"
 "guì"	"貴"	"貴, 跪"	"貴 expensive
@@ -139,7 +139,7 @@
 "xiǎo"	"小"	"小"	"小 small"
 "nán"	"難"	"難, 男, 南"	"難 difficult (to...)
 男 male
-南 surname Nan"
+南 south"
 "róngyì"	"容易"	"容易"	"容易 easy"
 "yǒu"	"有"	"有"	"有 to have"
 "xiǎng"	"想"	"想"	"想 to think"
@@ -149,17 +149,17 @@
 "fàn"	"飯"	"飯, 犯"	"飯 food
 犯 to violate"
 "chī"	"吃"	"吃"	"吃 variant of 吃[chi1]"
-"yě"	"也"	"也"	"也 surname Ye"
+"yě"	"也"	"也"	"也 also"
 "méi"	"沒"	"沒, 煤, 枚"	"沒 (negative prefix for verbs)
 煤 coal
-枚 surname Mei"
-"dōu"	"都"	"都"	"都 surname Du"
+枚 classifier for coins, rings, badges, pearls, sporting medals, rockets, satellites etc"
+"dōu"	"都"	"都"	"都 all"
 "zhǐ"	"只"	"只, 紙"	"只 classifier for birds and certain animals, one of a pair, some utensils, vessels etc
 紙 paper"
 "kěshì"	"可是"	"可是"	"可是 but"
 "háishì"	"還是"	"還是"	"還是 or"
 "le"	"了"	"了"	"了 (of eyes) bright"
-"guò"	"過"	"過"	"過 surname Guo"
+"guò"	"過"	"過"	"過 to cross"
 "nǚ"	"女"	"女"	"女 female"
 "háizi"	"孩子"	"孩子"	"孩子 child"
 "xiǎojiě"	"小姐"	"小姐"	"小姐 young lady"
@@ -168,7 +168,7 @@
 "nǚér"	"女兒"	"女兒"	"女兒 daughter"
 "érzi"	"兒子"	"兒子"	"兒子 son"
 "dàjiā"	"大家"	"大家"	"大家 everyone"
-"lù"	"路"	"路"	"路 surname Lu"
+"lù"	"路"	"路"	"路 road"
 "shǒujī"	"手機"	"手機"	"手機 cell phone"
 "hàomǎ"	"號碼"	"號碼"	"號碼 number"
 "míngnián"	"明年"	"明年"	"明年 next year"
@@ -179,8 +179,8 @@
 "xīngqí"	"星期"	"星期"	"星期 week"
 "xīngqítiān"	"星期天"	"星期天"	"星期天 Sunday"
 "zhōumò"	"週末"	"週末"	"週末 weekend"
-"cóng"	"從"	"從"	"從 surname Cong"
-"xiào"	"笑"	"笑"	"笑 old variant of 笑[xiao4]"
+"cóng"	"從"	"從"	"從 from"
+"xiào"	"笑"	"笑"	"笑 laugh"
 "ài"	"愛"	"愛"	"愛 to love"
 "hǎokàn"	"好看"	"好看"	"好看 good-looking"
 "kuàilè"	"快樂"	"快樂"	"快樂 happy"
@@ -194,7 +194,7 @@
 "zhǔnbèi"	"準備"	"準備"	"準備 preparation"
 "yīdiǎn"	"一點"	"一點"	"一點 a bit"
 "yīxiē"	"一些"	"一些"	"一些 some"
-"zhāng"	"張"	"張"	"張 surname Zhang"
+"zhāng"	"張"	"張"	"張 to open up"
 "zhōngxué"	"中學"	"中學"	"中學 middle school"
 "niánjí"	"年級"	"年級"	"年級 grade"
 "yīngwén"	"英文"	"英文"	"英文 English (language)"
@@ -217,21 +217,21 @@
 "dǒng"	"懂"	"懂"	"懂 to understand"
 "tiānqì"	"天氣"	"天氣"	"天氣 weather"
 "fángzi"	"房子"	"房子"	"房子 house"
-"mén"	"門"	"門"	"門 surname Men"
-"shān"	"山"	"山"	"山 surname Shan"
+"mén"	"門"	"門"	"門 gate"
+"shān"	"山"	"山"	"山 mountain"
 "kètīng"	"客廳"	"客廳"	"客廳 drawing room (room for arriving guests)"
 "hé"	"河"	"河, 和"	"河 river
-和 old variant of 和[he2]"
+和 harmonious"
 "gǒu"	"狗"	"狗"	"狗 dog"
-"huā"	"花"	"花"	"花 variant of 花[hua1]"
+"huā"	"花"	"花"	"花 flower"
 "fēng"	"風"	"風, 瘋"	"風 wind
 瘋 insane"
-"hǎi"	"海"	"海"	"海 surname Hai"
-"yú"	"魚"	"魚, 于, 逾"	"魚 surname Yu
+"hǎi"	"海"	"海"	"海 ocean"
+"yú"	"魚"	"魚, 于, 逾"	"魚 fish
 于 in
-逾 variant of 逾[yu2]"
+逾 to exceed"
 "shù"	"樹"	"樹"	"樹 tree"
-"lěng"	"冷"	"冷"	"冷 surname Leng"
+"lěng"	"冷"	"冷"	"冷 cold"
 "rè"	"熱"	"熱"	"熱 to warm up"
 "xǐzǎo"	"洗澡"	"洗澡"	"洗澡 to bathe"
 "kāfēi"	"咖啡"	"咖啡"	"咖啡 coffee (loanword)"
@@ -248,7 +248,7 @@
 "yīnyuè"	"音樂"	"音樂"	"音樂 music"
 "piào"	"票"	"票"	"票 ticket"
 "zhàopiàn"	"照片"	"照片"	"照片 photograph"
-"wán"	"玩"	"玩, 完"	"玩 variant of 玩[wan2]
+"wán"	"玩"	"玩, 完"	"玩 Taiwan pr. [wan4]
 完 to finish"
 "pǎo"	"跑"	"跑"	"跑 (of an animal) to paw (the ground)"
 "yùndòng"	"運動"	"運動"	"運動 to move"
@@ -275,46 +275,46 @@
 "dìtiě"	"地鐵"	"地鐵"	"地鐵 subway"
 "dìfāng"	"地方"	"地方"	"地方 region"
 "fùjìn"	"附近"	"附近"	"附近 (in the) vicinity"
-"lí"	"離"	"離, 梨"	"離 surname Li
+"lí"	"離"	"離, 梨"	"離 to leave
 梨 pear"
 "wǎng"	"往"	"往"	"往 old variant of 往[wang3]"
 "sòng"	"送"	"送"	"送 to deliver"
 "dài"	"帶"	"帶, 戴"	"帶 band
-戴 surname Dai"
+戴 to put on or wear (glasses, hat, gloves etc)"
 "fàng"	"放"	"放"	"放 to put"
-"ná"	"拿"	"拿"	"拿 variant of 拿[na2]"
+"ná"	"拿"	"拿"	"拿 to hold"
 "jìnlái"	"進來"	"進來, 近來"	"進來 to come in
 近來 recently"
 "chūqù"	"出去"	"出去"	"出去 to go out"
 "zhàn"	"站"	"站, 占"	"站 station
-占 variant of 占[zhan4]"
+占 to observe"
 "màn"	"慢"	"慢"	"慢 slow"
 "yuǎn"	"遠"	"遠"	"遠 far"
 "shēntǐ"	"身體"	"身體"	"身體 the body"
 "yǎnjīng"	"眼睛"	"眼睛"	"眼睛 eye"
 "yào"	"藥"	"藥, 要"	"藥 medicine
 要 to demand"
-"lèi"	"累"	"累, 淚, 類"	"累 surname Lei
+"lèi"	"累"	"累, 淚, 類"	"累 rope
 淚 tears
 類 kind"
-"shuāng"	"雙"	"雙, 霜"	"雙 surname Shuang
+"shuāng"	"雙"	"雙, 霜"	"雙 two
 霜 frost"
-"yuán"	"元"	"元, 圓"	"元 surname Yuan
+"yuán"	"元"	"元, 圓"	"元 the Yuan or Mongol dynasty (1279-1368)
 圓 circle"
 "xiézi"	"鞋子"	"鞋子"	"鞋子 shoe"
 "kùzi"	"褲子"	"褲子"	"褲子 trousers"
 "shìchǎng"	"市場"	"市場"	"市場 marketplace"
 "yīfu"	"衣服"	"衣服"	"衣服 clothes"
 "cháng"	"長"	"長, 嚐"	"長 length
-嚐 variant of 嘗|尝[chang2]"
-"xīn"	"新"	"新"	"新 abbr. for Xinjiang 新疆[Xin1 jiang1] or Singapore 新加坡[Xin1 jia1 po1]"
+嚐 to taste"
+"xīn"	"新"	"新"	"新 new"
 "yīyàng"	"一樣"	"一樣"	"一樣 same"
 "hǎochī"	"好吃"	"好吃"	"好吃 tasty"
 "jiàn"	"件"	"件, 箭, 賤, 濺"	"件 item
 箭 arrow
 賤 inexpensive
 濺 to splash"
-"bēi"	"杯"	"杯, 碑"	"杯 variant of 杯[bei1]
+"bēi"	"杯"	"杯, 碑"	"杯 trophy cup
 碑 a monument"
 "píng"	"瓶"	"瓶, 坪, 憑"	"瓶 variant of 瓶[ping2]
 坪 a plain
@@ -362,7 +362,7 @@
 "qiān"	"千"	"千, 牽, 遷"	"千 see 鞦韆|秋千[qiu1 qian1]
 牽 to lead along
 遷 to move"
-"wàn"	"萬"	"萬"	"萬 surname Wan"
+"wàn"	"萬"	"萬"	"萬 ten thousand"
 "bàngōngshì"	"辦公室"	"辦公室"	"辦公室 office"
 "gōngchăng"	"工廠"	"工廠"	"工廠 factory"
 "gōngrén"	"工人"	"工人"	"工人 worker"
@@ -395,7 +395,7 @@
 "fángjiān"	"房間"	"房間"	"房間 room"
 "chúfáng"	"廚房"	"廚房"	"廚房 kitchen"
 "chuānghu"	"窗"	"窗"	"窗 variant of 窗[chuang1]"
-"lóu"	"樓"	"樓, 嘍"	"樓 surname Lou
+"lóu"	"樓"	"樓, 嘍"	"樓 house with more than 1 story
 嘍 subordinates in gang of bandits"
 "lóushàng"	"樓上"	"樓上"	"樓上 upstairs"
 "lóuxià"	"樓下"	"樓下"	"樓下 downstairs"
@@ -411,8 +411,8 @@
 "hǎibiān"	"海邊"	"海邊"	"海邊 coast"
 "hú"	"湖"	"湖, 壺"	"湖 lake
 壺 pot"
-"mǎ"	"馬"	"馬"	"馬 surname Ma"
-"niǎo"	"鳥"	"鳥"	"鳥 variant of 屌[diao3]"
+"mǎ"	"馬"	"馬"	"馬 horse"
+"niǎo"	"鳥"	"鳥"	"鳥 penis"
 "māo"	"貓"	"貓"	"貓 cat"
 "jī"	"雞"	"雞"	"雞 fowl"
 "tàiyáng"	"太陽"	"太陽"	"太陽 sun"
@@ -495,11 +495,11 @@
 "duǎn"	"短"	"短"	"短 short"
 "xiǎoxīn"	"小心"	"小心"	"小心 to be careful"
 "niúnǎi"	"牛奶"	"牛奶"	"牛奶 cow's milk"
-"dàn"	"蛋"	"蛋, 淡"	"蛋 variant of 蜑[Dan4]
+"dàn"	"蛋"	"蛋, 淡"	"蛋 egg
 淡 insipid"
 "jiǎozi"	"餃子"	"餃子"	"餃子 dumpling"
 "miàn"	"麵"	"麵"	"麵 flour"
-"tāng"	"湯"	"湯"	"湯 surname Tang"
+"tāng"	"湯"	"湯"	"湯 rushing current"
 "bāozi"	"包子"	"包子"	"包子 steamed stuffed bun"
 "dàngāo"	"蛋糕"	"蛋糕"	"蛋糕 cake"
 "miànbāo"	"麵包"	"麵包"	"麵包 bread"
@@ -510,11 +510,11 @@
 "guǒzhī"	"果汁"	"果汁"	"果汁 fruit juice"
 "bēizi"	"杯子"	"杯子"	"杯子 cup"
 "tián"	"甜"	"甜, 田, 填"	"甜 sweet
-田 surname Tian
+田 field
 填 to fill or stuff"
 "càidān"	"菜單"	"菜單"	"菜單 menu"
 "qiǎokèlì"	"巧克力"	"巧克力"	"巧克力 chocolate (loanword)"
-"wǎn"	"碗"	"碗"	"碗 variant of 碗[wan3]"
+"wǎn"	"碗"	"碗"	"碗 bowl"
 "pánzi"	"盤子"	"盤子"	"盤子 tray"
 "yībàn"	"一半"	"一半"	"一半 half"
 "yīdìng"	"一定"	"一定"	"一定 surely"
@@ -526,7 +526,7 @@
 "rìqí"	"日期"	"日期"	"日期 date"
 "shíjiān"	"時間"	"時間"	"時間 time"
 "zhōngtóu"	"鐘頭"	"鐘頭"	"鐘頭 hour"
-"yè"	"夜"	"夜, 頁"	"夜 variant of 夜[ye4]
+"yè"	"夜"	"夜, 頁"	"夜 night
 頁 page"
 "lǐbài"	"禮拜"	"禮拜"	"禮拜 week"
 "lǐbàitiān"	"禮拜天"	"禮拜天"	"禮拜天 Sunday"
@@ -554,7 +554,7 @@
 "nǎinai"	"奶奶"	"奶奶"	"奶奶 (informal) grandma (paternal grandmother)"
 "guānxì"	"關係"	"關係"	"關係 relation"
 "jiàotáng"	"教堂"	"教堂"	"教堂 church"
-"zuì"	"最"	"最, 醉"	"最 old variant of 聚[ju4]
+"zuì"	"最"	"最, 醉"	"最 most
 醉 intoxicated"
 "gèng"	"更"	"更"	"更 to change or replace"
 "yúkuài"	"愉快"	"愉快"	"愉快 cheerful"
@@ -562,7 +562,7 @@
 "zhāojí"	"著急"	"著急"	"著急 to worry"
 "dānxīn"	"擔心"	"擔心"	"擔心 anxious"
 "shēngqì"	"生氣"	"生氣"	"生氣 to get angry"
-"pà"	"怕"	"怕"	"怕 surname Pa"
+"pà"	"怕"	"怕"	"怕 to be afraid"
 "kū"	"哭"	"哭"	"哭 to cry"
 "nánguò"	"難過"	"難過"	"難過 to feel sad"
 "shāngxīn"	"傷心"	"傷心"	"傷心 to grieve"
@@ -632,7 +632,7 @@
 "jiǎng"	"講"	"講"	"講 to speak"
 "jiǎnghuà"	"講話"	"講話"	"講話 a speech"
 "gàosù"	"告訴"	"告訴"	"告訴 to press charges"
-"niàn"	"念"	"念"	"念 variant of 念[nian4], to read aloud"
+"niàn"	"念"	"念"	"念 to read"
 "tǎolùn"	"討論"	"討論"	"討論 to discuss"
 "rènwéi"	"認為"	"認為"	"認為 to believe"
 "jiěshì"	"解釋"	"解釋"	"解釋 explanation"
@@ -640,12 +640,12 @@
 "liǎojiě"	"了解"	"了解"	"了解 to understand"
 "qīngchǔ"	"清楚"	"清楚"	"清楚 clear"
 "wúliáo"	"無聊"	"無聊"	"無聊 bored"
-"biàn"	"遍"	"遍, 變, 辯"	"遍 variant of 遍[bian4]
+"biàn"	"遍"	"遍, 變, 辯"	"遍 everywhere
 變 to change
 辯 to dispute"
 "jiāo"	"交"	"交, 澆"	"交 to hand over
 澆 to pour liquid"
-"jiè"	"借"	"借, 屆"	"借 variant of 借[jie4]
+"jiè"	"借"	"借, 屆"	"借 to insult
 屆 to arrive at (place or time)"
 "bànfǎ"	"辦法"	"辦法"	"辦法 means"
 "fāngfǎ"	"方法"	"方法"	"方法 method"
@@ -675,18 +675,18 @@
 "kāishuǐ"	"開水"	"開水"	"開水 boiled water"
 "xiāngxià"	"鄉下"	"鄉下"	"鄉下 countryside"
 "sēnlín"	"森林"	"森林"	"森林 forest"
-"cǎo"	"草"	"草"	"草 variant of 草[cao3]"
+"cǎo"	"草"	"草"	"草 grass"
 "zhī"	"枝"	"枝, 隻, 支"	"枝 branch
 隻 classifier for birds and certain animals, one of a pair, some utensils, vessels etc
-支 surname Zhi"
+支 to support"
 "dòngwù"	"動物"	"動物"	"動物 animal"
 "hŭ"	"虎"	"虎"	"虎 tiger"
-"yáng"	"羊"	"羊"	"羊 surname Yang"
+"yáng"	"羊"	"羊"	"羊 sheep"
 "zhū"	"豬"	"豬, 株"	"豬 hog
 株 tree trunk"
 "yuèliàng"	"月亮"	"月亮"	"月亮 the moon"
 "xīngxīng"	"星星"	"星星"	"星星 star in the sky"
-"yún"	"雲"	"雲"	"雲 surname Yun"
+"yún"	"雲"	"雲"	"雲 cloud"
 "dìqiú"	"地球"	"地球"	"地球 the earth"
 "shìjiè"	"世界"	"世界"	"世界 world"
 "huánjìng"	"環境"	"環境"	"環境 environment"
@@ -731,7 +731,7 @@
 "yìshù"	"藝術"	"藝術"	"藝術 art"
 "xìngqù"	"興趣"	"興趣"	"興趣 interest (desire to know about sth)"
 "shōu"	"收"	"收"	"收 to receive"
-"tán"	"談"	"談, 彈, 痰"	"談 surname Tan
+"tán"	"談"	"談, 彈, 痰"	"談 to speak
 彈 crossball
 痰 phlegm"
 "liáotiān"	"聊天"	"聊天"	"聊天 to chat"
@@ -776,7 +776,7 @@
 "ā"	"啊"	"啊"	"啊 interjection of surprise"
 "qìchē"	"汽車"	"汽車"	"汽車 car"
 "liàng"	"輛"	"輛"	"輛 classifier for vehicles"
-"chuán"	"船"	"船"	"船 variant of 船[chuan2]"
+"chuán"	"船"	"船"	"船 boat"
 "tíngchēchăng"	"停車場"	"停車場"	"停車場 parking lot"
 "dā"	"搭"	"搭"	"搭 to put up"
 "qĭfēi"	"起飛"	"起飛"	"起飛 (of an aircraft) to take off"
@@ -795,8 +795,8 @@
 "dòngwùyuán"	"動物園"	"動物園"	"動物園 zoo"
 "chūfā"	"出發"	"出發"	"出發 to set off"
 "líkāi"	"離開"	"離開"	"離開 to depart"
-"xiàng"	"向"	"向, 項, 巷"	"向 variant of 向[xiang4]
-項 surname Xiang
+"xiàng"	"向"	"向, 項, 巷"	"向 direction
+項 back of neck
 巷 lane"
 "nánbù"	"南部"	"南部"	"南部 southern part"
 "nánbiān"	"南邊"	"南邊"	"南邊 south"
@@ -808,7 +808,7 @@
 "dōngbù"	"東部"	"東部"	"東部 the east"
 "dōngbiān"	"東邊"	"東邊"	"東邊 east"
 "jīngguò"	"經過"	"經過"	"經過 to pass"
-"zhuǎn"	"轉"	"轉"	"轉 see 轉文|转文[zhuai3 wen2]"
+"zhuǎn"	"轉"	"轉"	"轉 to turn"
 "diào"	"掉"	"掉, 吊, 釣"	"掉 to fall
 吊 a string of 100 cash (arch.)
 釣 to fish with a hook and bait"
@@ -833,7 +833,7 @@
 "liǎn"	"臉"	"臉"	"臉 face"
 "tuǐ"	"腿"	"腿"	"腿 hip bone"
 "bí"	"鼻"	"鼻"	"鼻 nose"
-"bèi"	"背"	"背, 被, 倍"	"背 variant of 背[bei1]
+"bèi"	"背"	"背, 被, 倍"	"背 to be burdened
 被 quilt
 倍 (two, three etc) -fold"
 "zuǐba"	"嘴巴"	"嘴巴"	"嘴巴 mouth"
@@ -848,7 +848,7 @@
 "bìngrén"	"病人"	"病人"	"病人 sick person"
 "guàhào"	"掛號"	"掛號"	"掛號 to register (at a hospital etc)"
 "yáshuā"	"牙刷"	"牙刷"	"牙刷 toothbrush"
-"jiăn"	"剪"	"剪, 減, 揀, 撿"	"剪 surname Jian
+"jiăn"	"剪"	"剪, 減, 揀, 撿"	"剪 scissors
 減 to lower
 揀 to choose
 撿 to pick up"
@@ -867,7 +867,7 @@
 "hóngsè"	"紅色"	"紅色"	"紅色 red (color)"
 "hēisè"	"黑色"	"黑色"	"黑色 black"
 "shǒubiǎo"	"手表"	"手表"	"手表 wrist watch"
-"fù"	"付"	"付, 赴, 副"	"付 surname Fu
+"fù"	"付"	"付, 赴, 副"	"付 to pay
 赴 to go
 副 secondary"
 "chènshān"	"襯衫"	"襯衫"	"襯衫 shirt"
@@ -900,7 +900,7 @@
 "yīgòng"	"一共"	"一共"	"一共 altogether"
 "xūyào"	"需要"	"需要"	"需要 to need"
 "niúpái"	"牛排"	"牛排"	"牛排 steak"
-"mǐ"	"米"	"米"	"米 surname Mi"
+"mǐ"	"米"	"米"	"米 rice"
 "sānmíngzhì"	"三明治"	"三明治"	"三明治 sandwich (loanword)"
 "xīguā"	"西瓜"	"西瓜"	"西瓜 watermelon"
 "píjiǔ"	"啤酒"	"啤酒"	"啤酒 beer (loanword)"
@@ -908,9 +908,9 @@
 "diǎncài"	"點菜"	"點菜"	"點菜 to order dishes (in a restaurant)"
 "suān"	"酸"	"酸"	"酸 sour"
 "xián"	"鹹"	"鹹, 閒, 嫌"	"鹹 salted
-閒 variant of 間|间[jian1]
+閒 unoccupied
 嫌 to dislike"
-"là"	"辣"	"辣"	"辣 old variant of 辣[la4]"
+"là"	"辣"	"辣"	"辣 hot (spicy)"
 "diǎnxīn"	"點心"	"點心"	"點心 light refreshments"
 "bīngqílín"	"冰淇淋"	"冰淇淋"	"冰淇淋 ice cream"
 "bǐnggān"	"餅乾"	"餅乾"	"餅乾 biscuit"
@@ -919,7 +919,7 @@
 "yán"	"鹽"	"鹽, 沿"	"鹽 salt
 沿 along"
 "táng"	"糖"	"糖"	"糖 old variant of 糖[tang2]"
-"zhǔ"	"煮"	"煮"	"煮 variant of 煮[zhu3]"
+"zhǔ"	"煮"	"煮"	"煮 to cook"
 "tiáo"	"條"	"條"	"條 strip"
 "zhǒng"	"種"	"種"	"種 seed"
 "gòu"	"夠"	"夠"	"夠 enough (sufficient)"
@@ -931,7 +931,7 @@
 "xīnxian"	"新鮮"	"新鮮"	"新鮮 fresh (experience, food etc)"
 "kǎo"	"烤"	"烤"	"烤 to roast"
 "zhuāng"	"裝"	"裝"	"裝 adornment"
-"dāo"	"刀"	"刀"	"刀 surname Dao"
+"dāo"	"刀"	"刀"	"刀 knife"
 "chā"	"叉"	"叉, 插"	"叉 fork
 插 old variant of 插[cha1]"
 "tāngchí"	"湯匙"	"湯匙"	"湯匙 soup spoon"
@@ -1005,7 +1005,7 @@
 "běnrén"	"本人"	"本人"	"本人 the person himself"
 "běnzi"	"本子"	"本子"	"本子 book"
 "bèn"	"笨"	"笨"	"笨 stupid"
-"bī"	"逼"	"逼"	"逼 variant of 逼[bi1]"
+"bī"	"逼"	"逼"	"逼 to compel"
 "bǐrú"	"比如"	"比如"	"比如 for example"
 "bìjìng"	"畢竟"	"畢竟"	"畢竟 after all"
 "bìmiăn"	"避免"	"避免"	"避免 to avert"
@@ -1041,7 +1041,7 @@
 "bùzú"	"不足"	"不足"	"不足 insufficient"
 "bùfen"	"部分"	"部分"	"部分 part"
 "bùmén"	"部門"	"部門"	"部門 department"
-"bù"	"布"	"布"	"布 variant of 布[bu4]"
+"bù"	"布"	"布"	"布 to announce"
 "cā"	"擦"	"擦"	"擦 to wipe"
 "cāi"	"猜"	"猜"	"猜 to guess"
 "cáiliào"	"材料"	"材料"	"材料 material"
@@ -1051,7 +1051,7 @@
 "cǎodì"	"草地"	"草地"	"草地 lawn"
 "cǎoyuán"	"草原"	"草原"	"草原 grassland"
 "céng"	"層"	"層, 曾"	"層 layer
-曾 surname Zeng"
+曾 once"
 "céngjīng"	"曾經"	"曾經"	"曾經 once"
 "chābié"	"差別"	"差別"	"差別 difference"
 "chāyì"	"差異"	"差異"	"差異 difference"
@@ -1186,7 +1186,7 @@
 "dúpǐn"	"毒品"	"毒品"	"毒品 drugs"
 "dútè"	"獨特"	"獨特"	"獨特 unique"
 "dúzhě"	"讀者"	"讀者"	"讀者 reader"
-"duàn"	"段"	"段"	"段 surname Duan"
+"duàn"	"段"	"段"	"段 paragraph"
 "duī"	"堆"	"堆"	"堆 to pile up"
 "duìfāng"	"對方"	"對方"	"對方 counterpart"
 "duìhuà"	"對話"	"對話"	"對話 dialogue"
@@ -1210,7 +1210,7 @@
 "fāpiào"	"發票"	"發票"	"發票 invoice"
 "fălǜ"	"法律"	"法律"	"法律 law"
 "fān"	"翻"	"翻, 番"	"翻 variant of 翻[fan1]
-番 surname Pan"
+番 foreign (non-Chinese)"
 "fānyì"	"翻譯"	"翻譯"	"翻譯 to translate"
 "fánnăo"	"煩惱"	"煩惱"	"煩惱 to be worried"
 "fănér"	"反而"	"反而"	"反而 instead"
@@ -1247,7 +1247,7 @@
 "găijìn"	"改進"	"改進"	"改進 to improve"
 "găishàn"	"改善"	"改善"	"改善 to make better"
 "găitiān"	"改天"	"改天"	"改天 another day"
-"gài"	"蓋"	"蓋, 鈣"	"蓋 surname Ge
+"gài"	"蓋"	"蓋, 鈣"	"蓋 lid
 鈣 calcium (chemistry)"
 "gàiniàn"	"概念"	"概念"	"概念 concept"
 "găn"	"趕"	"趕"	"趕 to overtake"
@@ -1284,8 +1284,8 @@
 "gōutōng"	"溝通"	"溝通"	"溝通 to join"
 "gòumăi"	"購買"	"購買"	"購買 to purchase"
 "gūniáng"	"姑娘"	"姑娘"	"姑娘 girl"
-"gŭ"	"古"	"古, 鼓"	"古 surname Gu
-鼓 old variant of 鼓[gu3]"
+"gŭ"	"古"	"古, 鼓"	"古 ancient
+鼓 drum"
 "gŭdài"	"古代"	"古代"	"古代 ancient times"
 "gŭjī"	"古蹟"	"古蹟, 古跡"	"古蹟 
 古跡 places of historic interest"
@@ -1475,7 +1475,7 @@
 "kètáng"	"課堂"	"課堂"	"課堂 classroom"
 "kèwén"	"課文"	"課文"	"課文 text"
 "kèmăn"	"客滿"	"客滿"	"客滿 to have a full house"
-"kěn"	"肯"	"肯"	"肯 old variant of 肯[ken3]"
+"kěn"	"肯"	"肯"	"肯 to agree"
 "kěndìng"	"肯定"	"肯定"	"肯定 to be certain"
 "kōngjiān"	"空間"	"空間"	"空間 space"
 "kōngjūn"	"空軍"	"空軍"	"空軍 air force"
@@ -1484,7 +1484,7 @@
 "kŏuwèi"	"口味"	"口味"	"口味 a person's preferences"
 "kuāzhāng"	"誇張"	"誇張"	"誇張 to exaggerate"
 "kuàiyào"	"快要"	"快要"	"快要 almost"
-"kuān"	"寬"	"寬"	"寬 surname Kuan"
+"kuān"	"寬"	"寬"	"寬 lenient"
 "kuàngqiě"	"況且"	"況且"	"況且 moreover"
 "kùnnán"	"困難"	"困難"	"困難 difficult"
 "kuòdà"	"擴大"	"擴大"	"擴大 to expand"
@@ -1515,7 +1515,7 @@
 "lìzi"	"例子"	"例子"	"例子 case"
 "lìyì"	"利益"	"利益"	"利益 benefit"
 "lìyòng"	"利用"	"利用"	"利用 to exploit"
-"lián"	"連"	"連"	"連 surname Lian"
+"lián"	"連"	"連"	"連 to link"
 "liánxùjù"	"連續劇"	"連續劇"	"連續劇 serialized drama"
 "liànài"	"戀愛"	"戀愛"	"戀愛 (romantic) love"
 "liánghăo"	"良好"	"良好"	"良好 good"
@@ -1525,13 +1525,13 @@
 "língyòngqián"	"零用錢"	"零用錢"	"零用錢 pocket money"
 "lĭngdăo"	"領導"	"領導"	"領導 lead"
 "lĭngyù"	"領域"	"領域"	"領域 domain"
-"lìng"	"令"	"令, 另"	"令 see 令狐[Ling2 hu2]
+"lìng"	"令"	"令, 另"	"令 classifier for a ream of paper
 另 other"
 "liúhàn"	"流汗"	"流汗"	"流汗 to sweat"
 "liúxiě"	"流血"	"流血"	"流血 to bleed"
 "liúxué"	"留學"	"留學"	"留學 to study abroad"
 "liúxuéshēng"	"留學生"	"留學生"	"留學生 student studying abroad"
-"lóng"	"龍"	"龍"	"龍 surname Long"
+"lóng"	"龍"	"龍"	"龍 dragon"
 "lùqŭ"	"錄取"	"錄取"	"錄取 to accept an applicant (prospective student, employee etc) who passes an entrance exam"
 "lùyīn"	"錄音"	"錄音"	"錄音 to record (sound)"
 "lùyíng"	"露營"	"露營"	"露營 to camp out"
@@ -1557,7 +1557,7 @@
 "mírén"	"迷人"	"迷人"	"迷人 fascinating"
 "mǐfàn"	"米飯"	"米飯"	"米飯 (cooked) rice"
 "mĭfěn"	"米粉"	"米粉"	"米粉 rice flour"
-"mìmì"	"秘"	"秘"	"秘 variant of 秘[mi4]"
+"mìmì"	"秘"	"秘"	"秘 secret"
 "mìqiè"	"密切"	"密切"	"密切 close"
 "miănfèi"	"免費"	"免費"	"免費 free (of charge)"
 "miànjī"	"面積"	"面積"	"面積 area (of a floor, piece of land etc)"
@@ -1576,7 +1576,7 @@
 "mótuōchē"	"摩托車"	"摩托車"	"摩托車 motorbike"
 "mòshēng"	"陌生"	"陌生"	"陌生 strange"
 "mŏu"	"某"	"某"	"某 some"
-"mù"	"木"	"木"	"木 surname Mu"
+"mù"	"木"	"木"	"木 tree"
 "mùtou"	"木頭"	"木頭"	"木頭 slow-witted"
 "mùdì"	"目的"	"目的"	"目的 purpose"
 "mùqián"	"目前"	"目前"	"目前 at the present time"
@@ -1603,7 +1603,7 @@
 "ō"	"喔"	"喔"	"喔 I see"
 "ó"	"哦"	"哦"	"哦 to chant"
 "yǔ"	"噢"	"噢, 與"	"噢 Oh!
-與 variant of 歟|欤[yu2]"
+與 and"
 "pāi"	"拍"	"拍"	"拍 to pat"
 "páizi"	"牌子"	"牌子"	"牌子 sign"
 "pànwàng"	"盼望"	"盼望"	"盼望 to hope for"
@@ -1648,7 +1648,7 @@
 "qiǎn"	"淺"	"淺"	"淺 sound of moving water"
 "qiángdào"	"強盜"	"強盜"	"強盜 to rob (with force)"
 "qiángdiào"	"強調"	"強調"	"強調 to emphasize (a statement)"
-"qiǎng"	"搶"	"搶"	"搶 see 搶風|抢风[qiang1 feng1]"
+"qiǎng"	"搶"	"搶"	"搶 to fight over"
 "qīnqiè"	"親切"	"親切"	"親切 amiable"
 "qīnshŏu"	"親手"	"親手"	"親手 personally"
 "qīnyăn"	"親眼"	"親眼"	"親眼 with one's own eyes"
@@ -1710,10 +1710,10 @@
 "shàngdì"	"上帝"	"上帝"	"上帝 God"
 "shàngjiē"	"上街"	"上街"	"上街 to go onto the streets"
 "shàngyī"	"上衣"	"上衣"	"上衣 jacket"
-"shé"	"蛇"	"蛇"	"蛇 variant of 蛇[she2]"
+"shé"	"蛇"	"蛇"	"蛇 snake"
 "shèbèi"	"設備"	"設備"	"設備 equipment"
 "shèjì"	"設計"	"設計"	"設計 plan"
-"shēn"	"深"	"深, 伸"	"深 old variant of 深[shen1]
+"shēn"	"深"	"深, 伸"	"深 deep
 伸 to stretch"
 "shēnrù"	"深入"	"深入"	"深入 to penetrate deeply"
 "shēnbiān"	"身邊"	"身邊"	"身邊 at one's side"
@@ -1733,7 +1733,7 @@
 勝 victory"
 "shèngxia"	"剩下"	"剩下"	"剩下 to remain"
 "shī"	"濕"	"濕, 詩"	"濕 moist
-詩 abbr. for Shijing 詩經|诗经[Shi1 jing1], the Book of Songs"
+詩 poem"
 "shīliàn"	"失戀"	"失戀"	"失戀 to lose one's love"
 "shīqù"	"失去"	"失去"	"失去 to lose"
 "shīzi"	"獅子"	"獅子"	"獅子 Leo (star sign)"
@@ -1770,7 +1770,7 @@
 "shùmù"	"樹木"	"樹木, 數目"	"樹木 tree
 數目 amount"
 "shuāyá"	"刷牙"	"刷牙"	"刷牙 to brush one's teeth"
-"shuài"	"帥"	"帥"	"帥 surname Shuai"
+"shuài"	"帥"	"帥"	"帥 handsome"
 "shuǐjiǎo"	"水餃"	"水餃"	"水餃 boiled dumpling"
 "shuĭpíng"	"水平"	"水平"	"水平 level (of achievement etc)"
 "shuĭzhŭn"	"水準"	"水準"	"水準 level (of achievement etc)"
@@ -1840,7 +1840,7 @@
 "tuìbù"	"退步"	"退步"	"退步 to do less well than before"
 "tuìxiū"	"退休"	"退休"	"退休 to retire"
 "tuō"	"脫"	"脫, 拖"	"脫 to shed
-拖 variant of 拖[tuo1]"
+拖 to drag"
 "wáwa"	"娃娃"	"娃娃"	"娃娃 baby"
 "wàibiān"	"外邊"	"外邊"	"外邊 outside"
 "wàigōng"	"外公"	"外公"	"外公 (coll.) mother's father"
@@ -1910,7 +1910,7 @@
 "xiăngdào"	"想到"	"想到"	"想到 to think of"
 "xiǎngfǎ"	"想法"	"想法"	"想法 way of thinking"
 "xiăngxiàng"	"想像"	"想像"	"想像 to imagine"
-"xiàngjī"	"相機"	"相機"	"相機 camera (abbr. for 照相機|照相机[zhao4 xiang4 ji1])"
+"xiàngjī"	"相機"	"相機"	"相機 at the opportune moment"
 "xiàngshēng"	"相聲"	"相聲"	"相聲 comic dialogue"
 "xiăochī"	"小吃"	"小吃"	"小吃 snack"
 "xiǎopéngyǒu"	"小朋友"	"小朋友"	"小朋友 child"
@@ -1999,7 +1999,7 @@
 "yìjiàn"	"意見"	"意見"	"意見 idea"
 "yìwài"	"意外"	"意外"	"意外 unexpected"
 "yìyì"	"意義"	"意義"	"意義 sense"
-"yīn"	"陰"	"陰"	"陰 surname Yin"
+"yīn"	"陰"	"陰"	"陰 overcast (weather)"
 "yīncǐ"	"因此"	"因此"	"因此 thus"
 "yīnxiăng"	"音響"	"音響"	"音響 sound"
 "yĭnqĭ"	"引起"	"引起"	"引起 to give rise to"
@@ -2027,7 +2027,7 @@
 "yŏuyì"	"友誼"	"友誼"	"友誼 companionship"
 "yúshì"	"於是"	"於是"	"於是 thereupon"
 "yù"	"玉"	"玉, 愈"	"玉 jade
-愈 variant of 愈[yu4]"
+愈 to heal"
 "yùmi"	"玉米"	"玉米"	"玉米 corn"
 "yùbèi"	"預備"	"預備"	"預備 to prepare"
 "yùxí"	"預習"	"預習"	"預習 to prepare a lesson"
@@ -2178,7 +2178,7 @@
 "bànshì"	"辦事"	"辦事"	"辦事 to handle (affairs)"
 "bànyăn"	"扮演"	"扮演"	"扮演 to play the role of"
 "bāngwăn"	"傍晚"	"傍晚"	"傍晚 in the evening"
-"bàng"	"磅"	"磅"	"磅 see 磅秤 scale"
+"bàng"	"磅"	"磅"	"磅 platform balance"
 "bàngzi"	"棒子"	"棒子"	"棒子 stick"
 "bāoguǒ"	"包裹"	"包裹"	"包裹 to wrap up"
 "bāokuò"	"包括"	"包括"	"包括 to comprise"
@@ -2216,7 +2216,7 @@
 "bì"	"閉"	"閉, 敝"	"閉 to close
 敝 my (polite)"
 "biān"	"編"	"編"	"編 to weave"
-"biăn"	"扁"	"扁, 貶"	"扁 surname Pian
+"biăn"	"扁"	"扁, 貶"	"扁 flat
 貶 to diminish"
 "biànlì"	"便利"	"便利"	"便利 convenient"
 "biàndòng"	"變動"	"變動"	"變動 to change"
@@ -2235,7 +2235,7 @@
 "bōcài"	"菠菜"	"菠菜"	"菠菜 spinach"
 "bōdòng"	"波動"	"波動"	"波動 to undulate"
 "bōli"	"玻璃"	"玻璃"	"玻璃 glass"
-"bó"	"薄"	"薄"	"薄 surname Bo"
+"bó"	"薄"	"薄"	"薄 thin"
 "bóruò"	"薄弱"	"薄弱"	"薄弱 weak"
 "bófù"	"伯父"	"伯父"	"伯父 father's elder brother"
 "bómŭ"	"伯母"	"伯母"	"伯母 wife of father's elder brother"
@@ -2270,7 +2270,7 @@
 "cáinéng"	"才能"	"才能"	"才能 talent"
 "cáipàn"	"裁判"	"裁判"	"裁判 judgment"
 "cáiyuán"	"裁員"	"裁員"	"裁員 to cut staff"
-"căi"	"踩"	"踩"	"踩 variant of 踩[cai3]"
+"căi"	"踩"	"踩"	"踩 to step on"
 "căigòu"	"採購"	"採購"	"採購 to procure (for an enterprise etc)"
 "căisè"	"彩色"	"彩色"	"彩色 color"
 "cānyù"	"參與"	"參與"	"參與 to participate (in sth)"
@@ -2311,14 +2311,14 @@
 "chāorén"	"超人"	"超人"	"超人 Superman, comic book superhero"
 "chāoyuè"	"超越"	"超越"	"超越 to surpass"
 "chāozhòng"	"超重"	"超重"	"超重 overweight (baggage, freight)"
-"cháo"	"朝"	"朝"	"朝 abbr. for 朝鮮|朝鲜[Chao2 xian3] Korea"
+"cháo"	"朝"	"朝"	"朝 imperial or royal court"
 "cháoliú"	"潮流"	"潮流"	"潮流 tide"
 "cháoshī"	"潮溼"	"潮溼"	"潮溼 "
 "chăonào"	"吵鬧"	"吵鬧"	"吵鬧 noisy"
 "chēpiào"	"車票"	"車票"	"車票 ticket (for a bus or train)"
-"chě"	"扯"	"扯"	"扯 variant of 扯[che3]"
+"chě"	"扯"	"扯"	"扯 to pull"
 "chèdǐ"	"澈底"	"澈底"	"澈底 variant of 徹底|彻底[che4 di3]"
-"chén"	"沉"	"沉"	"沉 see 黑沉沉[hei1 chen1 chen1]"
+"chén"	"沉"	"沉"	"沉 to submerge"
 "chénliè"	"陳列"	"陳列"	"陳列 to display"
 "chēng"	"稱"	"稱, 撐"	"稱 to fit
 撐 to support"
@@ -2485,7 +2485,7 @@
 "diāokè"	"雕刻"	"雕刻"	"雕刻 to carve"
 "dié"	"跌"	"跌"	"跌 to fall"
 "diédăo"	"跌倒"	"跌倒"	"跌倒 to tumble"
-"dīng"	"丁"	"丁, 盯"	"丁 surname Ding
+"dīng"	"丁"	"丁, 盯"	"丁 fourth of the ten Heavenly Stems 十天干[shi2 tian1 gan1]
 盯 to watch attentively"
 "dǐng"	"頂"	"頂"	"頂 apex"
 "dìnghūn"	"訂婚"	"訂婚"	"訂婚 to get engaged"
@@ -2510,7 +2510,7 @@
 "dŭ"	"賭"	"賭, 堵"	"賭 to bet
 堵 to stop up"
 "dùguò"	"度過"	"度過"	"度過 to pass"
-"duān"	"端"	"端"	"端 variant of 專|专[zhuan1]"
+"duān"	"端"	"端"	"端 start"
 "duànliàn"	"鍛鍊"	"鍛鍊"	"鍛鍊 to toughen"
 "duìyuán"	"隊員"	"隊員"	"隊員 team member"
 "duìàn"	"對岸"	"對岸"	"對岸 opposite bank (of a body of water)"
@@ -2885,7 +2885,7 @@
 "jiànjiē"	"間接"	"間接"	"間接 indirect"
 "jiànpán"	"鍵盤"	"鍵盤"	"鍵盤 keyboard"
 "jiànquán"	"健全"	"健全"	"健全 robust"
-"jiāng"	"江"	"江"	"江 surname Jiang"
+"jiāng"	"江"	"江"	"江 river"
 "jiāngyào"	"將要"	"將要"	"將要 will"
 "jiăngjīn"	"獎金"	"獎金"	"獎金 premium"
 "jiăngpĭn"	"獎品"	"獎品"	"獎品 award"
@@ -3210,7 +3210,7 @@
 "péngzhàng"	"膨脹"	"膨脹"	"膨脹 to expand"
 "pěng"	"捧"	"捧"	"捧 to clasp"
 "pèngjiàn"	"碰見"	"碰見"	"碰見 to run into"
-"pī"	"匹"	"匹, 披"	"匹 variant of 匹[pi3]
+"pī"	"匹"	"匹, 披"	"匹 classifier for cloth: bolt
 披 to drape over one's shoulders"
 "pīpàn"	"批判"	"批判"	"批判 to criticize"
 "píjuàn"	"疲倦"	"疲倦"	"疲倦 to tire"
@@ -3229,7 +3229,7 @@
 "píngjìng"	"平靜"	"平靜"	"平靜 tranquil"
 "píngjūn"	"平均"	"平均"	"平均 average"
 "pópo"	"婆婆"	"婆婆"	"婆婆 husband's mother"
-"pŏ"	"頗"	"頗"	"頗 surname Po"
+"pŏ"	"頗"	"頗"	"頗 Taiwan pr. [Po3]"
 "pòlàn"	"破爛"	"破爛"	"破爛 worn-out"
 "pòliè"	"破裂"	"破裂"	"破裂 to rupture"
 "pòqiè"	"迫切"	"迫切"	"迫切 urgent"
@@ -3272,7 +3272,7 @@
 "qiányuàn"	"前院"	"前院"	"前院 front courtyard"
 "qiàn"	"欠"	"欠"	"欠 deficient"
 "qiànyì"	"歉意"	"歉意"	"歉意 apology"
-"qiāng"	"槍"	"槍"	"槍 surname Qiang"
+"qiāng"	"槍"	"槍"	"槍 gun"
 "qiángdà"	"強大"	"強大"	"強大 large"
 "qiángdù"	"強度"	"強度"	"強度 strength"
 "qiángliè"	"強烈"	"強烈"	"強烈 intense"
@@ -3325,7 +3325,7 @@
 "quēshăo"	"缺少"	"缺少"	"缺少 lack"
 "quēxí"	"缺席"	"缺席"	"缺席 absence"
 "quèshí"	"確實"	"確實"	"確實 indeed"
-"qún"	"群"	"群"	"群 variant of 群[qun2]"
+"qún"	"群"	"群"	"群 group"
 "qúnzhòng"	"群眾"	"群眾"	"群眾 mass"
 "ránér"	"然而"	"然而"	"然而 however"
 "ránliào"	"燃料"	"燃料"	"燃料 fuel"
@@ -3383,7 +3383,7 @@
 "shă"	"傻"	"傻"	"傻 foolish"
 "shàitàiyáng"	"曬太陽"	"曬太陽"	"曬太陽 "
 "shāndì"	"山地"	"山地"	"山地 mountainous region"
-"shăn"	"閃"	"閃"	"閃 surname Shan"
+"shăn"	"閃"	"閃"	"閃 to dodge"
 "shànyú"	"善於"	"善於"	"善於 to be good at"
 "shànzi"	"扇子"	"扇子"	"扇子 fan"
 "shāngnăojīn"	"傷腦筋"	"傷腦筋"	"傷腦筋 to be a real headache"
@@ -3415,7 +3415,7 @@
 "shēnqĭng"	"申請"	"申請"	"申請 to apply for sth"
 "shēnshŏu"	"伸手"	"伸手"	"伸手 to reach out with one's hand"
 "shēncái"	"身材"	"身材"	"身材 stature"
-"shēnfèn"	"身分"	"身分"	"身分 variant of 身份"
+"shēnfèn"	"身分"	"身分"	"身分 identity"
 "shēnfènzhèng"	"身分證"	"身分證"	"身分證 identity card"
 "shēnkè"	"深刻"	"深刻"	"深刻 profound"
 "shēnqiăn"	"深淺"	"深淺"	"深淺 deep or shallow"
@@ -3503,7 +3503,7 @@
 "shùliàng"	"數量"	"數量"	"數量 amount"
 "shùlín"	"樹林"	"樹林"	"樹林 Shulin city in New Taipei City 新北市[Xin1 bei3 shi4], Taiwan"
 "shuākă"	"刷卡"	"刷卡"	"刷卡 to use a credit card (or swipe card, smart card etc)"
-"shuă"	"耍"	"耍"	"耍 surname Shua"
+"shuă"	"耍"	"耍"	"耍 to play with"
 "shuāi"	"摔"	"摔"	"摔 to throw down"
 "shuāituì"	"衰退"	"衰退"	"衰退 to decline"
 "shuăi"	"甩"	"甩"	"甩 to throw"
@@ -3670,7 +3670,7 @@
 "wénzi"	"蚊子"	"蚊子"	"蚊子 mosquito"
 "wěn"	"吻"	"吻"	"吻 variant of 吻[wen3]"
 "wòfáng"	"臥房"	"臥房"	"臥房 bedroom"
-"wūrăn"	"汙"	"汙"	"汙 variant of 污"
+"wūrăn"	"汙"	"汙"	"汙 dirty"
 "wúkěnàihé"	"無可奈何"	"無可奈何"	"無可奈何 have no way out"
 "wúlùn"	"無論"	"無論"	"無論 no matter what or how"
 "wúqíng"	"無情"	"無情"	"無情 pitiless"
@@ -3700,7 +3700,7 @@
 "xìjùn"	"細菌"	"細菌"	"細菌 bacterium"
 "xìxiăo"	"細小"	"細小"	"細小 tiny"
 "xiā"	"瞎"	"瞎, 蝦"	"瞎 blind
-蝦 see 蝦蟆|虾蟆[ha2 ma5]"
+蝦 shrimp"
 "xiāmi"	"蝦米"	"蝦米"	"蝦米 small shrimp"
 "xiàba"	"下巴"	"下巴"	"下巴 chin"
 "xiàjiàng"	"下降"	"下降"	"下降 to decline"
@@ -3820,7 +3820,7 @@
 "yăng"	"癢"	"癢"	"癢 to itch"
 "yăngqì"	"氧氣"	"氧氣"	"氧氣 oxygen"
 "yàngpĭn"	"樣品"	"樣品"	"樣品 sample"
-"yáo"	"搖"	"搖, 窯"	"搖 surname Yao
+"yáo"	"搖"	"搖, 窯"	"搖 to shake
 窯 kiln"
 "yáobăi"	"搖擺"	"搖擺"	"搖擺 to sway"
 "yáotóu"	"搖頭"	"搖頭"	"搖頭 to shake one's head"
@@ -3879,7 +3879,7 @@
 "yīnsù"	"因素"	"因素"	"因素 element"
 "yĭnfā"	"引發"	"引發"	"引發 to lead to"
 "yĭnshí"	"飲食"	"飲食"	"飲食 food and drink"
-"yìn"	"印"	"印"	"印 surname Yin"
+"yìn"	"印"	"印"	"印 to print"
 "yìnshuā"	"印刷"	"印刷"	"印刷 to print"
 "yìnxiàng"	"印象"	"印象"	"印象 impression"
 "yìnzhāng"	"印章"	"印章"	"印章 seal"
@@ -4067,7 +4067,7 @@
 "zhòngshāng"	"重傷"	"重傷"	"重傷 seriously hurt"
 "zhòngxīn"	"重心"	"重心"	"重心 center of gravity"
 "zhōu"	"州"	"州, 粥"	"州 prefecture
-粥 see 葷粥|荤粥[Xun1 yu4]"
+粥 congee"
 "zhōudào"	"周到"	"周到"	"周到 thoughtful"
 "zhú"	"竹"	"竹"	"竹 bamboo"
 "zhújiàn"	"逐漸"	"逐漸"	"逐漸 gradually"
@@ -4761,7 +4761,7 @@
 "gēnyuán"	"根源"	"根源"	"根源 origin"
 "gēngdì"	"耕地"	"耕地"	"耕地 arable land"
 "gēngdòng"	"更動"	"更動"	"更動 to change"
-"gōng"	"弓"	"弓, 攻"	"弓 surname Gong
+"gōng"	"弓"	"弓, 攻"	"弓 a bow (weapon)
 攻 to attack"
 "gōngdì"	"工地"	"工地"	"工地 construction site"
 "gōngdú"	"工讀"	"工讀, 攻讀"	"工讀 
@@ -4800,7 +4800,7 @@
 "gŭshì"	"股市"	"股市"	"股市 stock market"
 "gŭchuī"	"鼓吹"	"鼓吹"	"鼓吹 to agitate for"
 "gŭdòng"	"鼓動"	"鼓動"	"鼓動 to agitate"
-"gù"	"雇"	"雇"	"雇 variant of 雇[gu4]"
+"gù"	"雇"	"雇"	"雇 to employ"
 "gùrán"	"固然"	"固然"	"固然 admittedly (it's true that...)"
 "gùtǐ"	"固體"	"固體"	"固體 solid"
 "gùyǒu"	"固有"	"固有"	"固有 intrinsic to sth"
@@ -4834,7 +4834,7 @@
 "guāngmáng"	"光芒"	"光芒"	"光芒 rays of light"
 "guīfàn"	"規範"	"規範"	"規範 norm"
 "guīgé"	"規格"	"規格"	"規格 standard"
-"guī"	"歸"	"歸"	"歸 surname Gui"
+"guī"	"歸"	"歸"	"歸 to return"
 "guīhuán"	"歸還"	"歸還"	"歸還 to return sth"
 "guīnà"	"歸納"	"歸納"	"歸納 to sum up"
 "guǐdào"	"軌道"	"軌道"	"軌道 orbit"
@@ -4990,7 +4990,7 @@
 "jìlǜ"	"紀律"	"紀律"	"紀律 discipline"
 "jìnéng"	"技能"	"技能"	"技能 technical ability"
 "jìsì"	"祭祀"	"祭祀"	"祭祀 to offer sacrifices to the gods or ancestors"
-"jiāhuo"	"傢伙"	"傢伙"	"傢伙 variant of 家伙[jia1 huo5]"
+"jiāhuo"	"傢伙"	"傢伙"	"傢伙 household dish, implement or furniture"
 "jiājiāhùhù"	"家家戶戶"	"家家戶戶"	"家家戶戶 each and every family (idiom)"
 "jiādiàn"	"家電"	"家電"	"家電 household electric appliance"
 "jiāshŭ"	"家屬"	"家屬"	"家屬 family member"
@@ -5245,7 +5245,7 @@
 "lănsăn"	"懶散"	"懶散"	"懶散 inactive"
 "lăngdú"	"朗讀"	"朗讀"	"朗讀 to read aloud"
 "lăngsòng"	"朗誦"	"朗誦"	"朗誦 to read aloud with expression"
-"láogăi"	"勞改"	"勞改"	"勞改 abbr. for 勞動改造|劳动改造[lao2 dong4 gai3 zao4]"
+"láogăi"	"勞改"	"勞改"	"勞改 reform through labor"
 "láolèi"	"勞累"	"勞累"	"勞累 tired"
 "lăonián"	"老年"	"老年"	"老年 elderly"
 "lăorenjia"	"老人家"	"老人家"	"老人家 polite term for old woman or man"
@@ -5254,7 +5254,7 @@
 "lăotóur"	"老頭兒"	"老頭兒"	"老頭兒 see 老頭子|老头子[lao3 tou2 zi5]"
 "lăoxiāng"	"老鄉"	"老鄉"	"老鄉 fellow townsman"
 "lăozi"	"老子"	"老子"	"老子 Laozi or Lao-tze (c. 500 BC), Chinese philosopher, the founder of Taoism"
-"léi"	"雷"	"雷"	"雷 surname Lei"
+"léi"	"雷"	"雷"	"雷 thunder"
 "léidá"	"雷達"	"雷達"	"雷達 radar (loanword)"
 "léitóng"	"雷同"	"雷同"	"雷同 mirroring others"
 "lěijī"	"累積"	"累積"	"累積 to accumulate"
@@ -5287,7 +5287,7 @@
 "lìnián"	"歷年"	"歷年"	"歷年 over the years"
 "liánméng"	"聯盟"	"聯盟"	"聯盟 alliance"
 "liánxì"	"聯繫"	"聯繫"	"聯繫 connection"
-"liánxiăng"	"聯想"	"聯想"	"聯想 abbr. for 聯想集團|联想集团[Lian2 xiang3 Ji2 tuan2]"
+"liánxiăng"	"聯想"	"聯想"	"聯想 to associate (cognitively)"
 "liándài"	"連帶"	"連帶"	"連帶 to be related"
 "liánjié"	"連結"	"連結, 廉潔"	"連結 variant of 聯結|联结[lian2 jie2]
 廉潔 honest"
@@ -5384,7 +5384,7 @@
 "méng"	"蒙"	"蒙"	"蒙 to deceive"
 "měngliè"	"猛烈"	"猛烈"	"猛烈 fierce"
 "mèngjiàn"	"夢見"	"夢見"	"夢見 to dream about (sth or sb)"
-"mí"	"謎"	"謎"	"謎 see 謎兒|谜儿[mei4 r5], riddle"
+"mí"	"謎"	"謎"	"謎 riddle"
 "míyŭ"	"謎語"	"謎語"	"謎語 riddle"
 "mígōng"	"迷宮"	"迷宮"	"迷宮 maze"
 "míhuò"	"迷惑"	"迷惑"	"迷惑 to puzzle"
@@ -5420,7 +5420,7 @@
 "móshì"	"模式"	"模式"	"模式 mode"
 "móshù"	"魔術"	"魔術"	"魔術 magic"
 "mòqí"	"末期"	"末期"	"末期 end (of a period)"
-"mò"	"墨"	"墨"	"墨 surname Mo"
+"mò"	"墨"	"墨"	"墨 ink stick"
 "mòluò"	"沒落"	"沒落"	"沒落 to decline"
 "mòshōu"	"沒收"	"沒收"	"沒收 to confiscate"
 "mòmò"	"默默"	"默默"	"默默 in silence"
@@ -5654,7 +5654,7 @@
 "qúnjū"	"群居"	"群居"	"群居 to live together (in a large group or flock)"
 "rănliào"	"染料"	"染料"	"染料 dye"
 "răng"	"嚷"	"嚷"	"嚷 to blurt out"
-"ráo"	"饒"	"饒"	"饒 surname Rao"
+"ráo"	"饒"	"饒"	"饒 rich"
 "rècháo"	"熱潮"	"熱潮"	"熱潮 upsurge"
 "rèdài"	"熱帶"	"熱帶"	"熱帶 the tropics"
 "rèliàng"	"熱量"	"熱量"	"熱量 heat"
@@ -5705,7 +5705,7 @@
 "sāodòng"	"騷動"	"騷動"	"騷動 disturbance"
 "săozi"	"嫂子"	"嫂子"	"嫂子 (coll.) older brother's wife"
 "sèzé"	"色澤"	"色澤"	"色澤 color and luster"
-"shāchē"	"剎"	"剎"	"剎 Buddhist monastery, temple or shrine (abbr. for 剎多羅, Sanskrit ksetra)"
+"shāchē"	"剎"	"剎"	"剎 to brake"
 "shālā"	"沙拉"	"沙拉"	"沙拉 salad (loanword)"
 "shāyă"	"沙啞"	"沙啞"	"沙啞 hoarse"
 "shăguā"	"傻瓜"	"傻瓜"	"傻瓜 idiot"
@@ -6041,7 +6041,7 @@
 "wánměi"	"完美"	"完美"	"完美 perfect"
 "wánnòng"	"玩弄"	"玩弄"	"玩弄 to play with"
 "wánqiáng"	"頑強"	"頑強"	"頑強 tenacious"
-"wăn"	"挽"	"挽"	"挽 variant of 挽[wan3]"
+"wăn"	"挽"	"挽"	"挽 to draw (a cart)"
 "wănjiù"	"挽救"	"挽救"	"挽救 to save"
 "wànfēn"	"萬分"	"萬分"	"萬分 very much"
 "wànshì"	"萬事"	"萬事"	"萬事 all things"
@@ -6456,7 +6456,7 @@
 "zēngzhí"	"增值"	"增值"	"增值 to appreciate (financially)"
 "zhā"	"扎"	"扎"	"扎 to tie"
 "zhàyào"	"炸藥"	"炸藥"	"炸藥 explosive (material)"
-"zhān"	"沾"	"沾"	"沾 variant of 沾[zhan1]"
+"zhān"	"沾"	"沾"	"沾 to moisten"
 "zhăn"	"盞"	"盞"	"盞 a small cup"
 "zhănwàng"	"展望"	"展望"	"展望 outlook"
 "zhănxiàn"	"展現"	"展現"	"展現 to come out"

@@ -3,6 +3,7 @@ const cccedict = require('parse-cc-cedict');
 
 const { csvEscape } = require('./escape');
 const { numberedToAccent } = require('./pinyin');
+const { sortDescriptions } = require('./sort-descriptions');
 
 const dataDir = './data';
 const dictionaryFile = `${dataDir}/cedict_1_0_ts_utf-8_mdbg.txt`;
@@ -102,13 +103,15 @@ const values = rawValues
 
         done.add(value.word);
 
+        const translations = sortDescriptions(value.translations);
+
         const line = [
             value.word,
             value.pinyin,
             value.otherPinyin,
             value.level.toString(),
-            value.translations.slice(0, 1).join(''),
-            value.translations.slice(1).join(', '),
+            translations.slice(0, 1).join(''),
+            translations.slice(1).join(', '),
             value.parent !== undefined ? value.parent.word : '',
             value.parent !== undefined ? value.parent.pinyin : ''
         ]
