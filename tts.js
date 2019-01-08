@@ -21,7 +21,7 @@ let lines = contents
 
 // write header
 {
-    const headers = ['"Pinyin"', '"FirstWord"', '"AllWords"', '"Definitions"']
+    const headers = ['Pinyin', 'FirstWord', 'AllWords', 'Definitions']
         .map(v => `"${v}"`)
         .join(seperationCharacter) + '\n';
     process.stdout.write(headers);
