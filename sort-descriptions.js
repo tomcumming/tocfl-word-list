@@ -9,6 +9,10 @@ function score(description) {
     score += Number(/^surname\s/.test(description));
     score += Number(/(^|\W)archaic(\W|$)/.test(description));
     score += Number(/(^|\W)abbr\./.test(description));
+    score += Number(/(^|\s)town(ship)?\sin\s/.test(description));
+    score += Number(/\w+\s[cC]ounty(\W|$)/.test(description));
+    score += Number(/\s[cC]ity\W/.test(description));
+    score += Number(/one of the characters/.test(description));
     return score;
 }
 
