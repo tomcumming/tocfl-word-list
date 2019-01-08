@@ -29,7 +29,7 @@ let lines = contents
 
 // write header
 {
-    const headers = ['Simplified', 'Traditional', 'Pinyin', 'Level', 'Parent']
+    const headers = ['Simplified', 'Traditional', 'Pinyin', 'Level', 'Parent', 'Meaning']
         .map(v => `"${v}"`)
         .join(seperationCharacter) + '\n';
     process.stdout.write(headers);
@@ -67,7 +67,7 @@ let written = new Set();
 
 for(const cells of lines) {
 
-    const [ word, pinyin, level, firstTrn, trns, parent ] = cells;
+    const [ word, pinyin, otherPinyin, level, firstTrn, trns, parent ] = cells;
 
     const def = tradDefLookup.get(word);
     if(def === undefined) {
@@ -99,7 +99,7 @@ for(const cells of lines) {
     const parents = Array.from(new Set(simps.map(s => s[6]).filter(x => x !== '')))
         .join(', ');
 
-    const parts = [def.simplified, trads, pinyins, levels, parents]
+    const parts = [def.simplified, trads, pinyins, levels, parents, firstTrn]
         .map(csvEscape);
 
     process.stdout.write(parts.join(seperationCharacter) + '\n');
