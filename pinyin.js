@@ -78,14 +78,32 @@ function addAccent(input, tone) {
 function numberedToAccent(input) {
     input = input.toLowerCase();
 
-    const match = /^(.+)([1-5])$/.exec(input);
-    if(match === null)
-        return input;
+    return input.split(' ')
+        .map(part => {
+            const match = /^(.+)([1-5])$/.exec(part);
+            if(match === null)
+                return part;
 
-    const tone = parseInt(match[2]);
-    return addAccent(match[1], tone);
+            const tone = parseInt(match[2]);
+            return addAccent(match[1], tone);
+        })
+        .join('');
+}
+
+/** Replace breves with caron
+ *
+ * @param {string} input
+ */
+function fixPinyin(input) {
+    return input.replace(/Ă|ă/g, 'ǎ')
+        .replace(/Ĕ|ĕ/g, 'ě')
+        .replace(/Ĭ|ĭ/g, 'ǐ')
+        .replace(/Ŏ|ŏ/g, 'ǒ')
+        .replace(/Ŭ|ŭ/g, 'ǔ');
+    // ǚ ？
 }
 
 module.exports = {
-    numberedToAccent
+    numberedToAccent,
+    fixPinyin
 };

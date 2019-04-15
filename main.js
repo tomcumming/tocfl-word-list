@@ -2,7 +2,7 @@ const fs = require('fs');
 const cccedict = require('parse-cc-cedict');
 
 const { csvEscape } = require('./escape');
-const { numberedToAccent } = require('./pinyin');
+const { numberedToAccent, fixPinyin } = require('./pinyin');
 const { sortDescriptions } = require('./sort-descriptions');
 
 const dataDir = './data';
@@ -56,7 +56,7 @@ const sanitizeValue = v => v
 const values = rawValues
     .map(({ word, pinyin, level }) => ({
         word: sanitizeValue(word),
-        pinyin: sanitizeValue(pinyin),
+        pinyin: numberedToAccent(fixPinyin(sanitizeValue(pinyin.toLowerCase()))),
         level: level
     }));
 
@@ -84,7 +84,7 @@ const values = rawValues
 
         return {
             pinyin: Array.from(
-                    new Set(defs.map(d => d.pronunciation.toLowerCase())))
+                    new Set(defs.map(d => numberedToAccent(fixPinyin(d.pronunciation.toLowerCase())))))
                 .join(' '),
             translations: defs
                 .map(d => d.definitions)
@@ -141,7 +141,7 @@ const values = rawValues
 
                 const pinyins = lookup.has(char)
                     ? [lookup.get(char).pinyin]
-                    : def.pinyin.split(' ').map(numberedToAccent);
+                    : def.pinyin.split(' ');
 
                 if(pinyins.length === 0)
                     pinyins = [''];
