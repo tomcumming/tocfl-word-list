@@ -17,7 +17,7 @@ let lines = contents
     .split('\n')
     .slice(1)
     .map(line => line.split('\t').map(unEscape))
-    .filter(cells => cells.length > 0); // remove final new-line;
+    .filter(cells => cells.length > 1); // remove final new-line;
 
 // write header
 {
@@ -31,9 +31,6 @@ let lines = contents
 let pinyinLookup = new Map();
 for(const cells of lines)
 {
-    if(cells[6] !== '')
-        continue;
-
     if(pinyinLookup.has(cells[1]))
         pinyinLookup.get(cells[1]).push(cells);
     else
@@ -44,10 +41,7 @@ let written = new Set();
 
 for(const cells of lines) {
 
-    const [ word, pinyin, otherPinyin, level, firstTrn, trns, parentWord ] = cells;
-
-    if(parentWord !== '')
-        continue;
+    const [ word, pinyin, otherPinyin, level, firstTrn, trns ] = cells;
 
     if(written.has(pinyin))
         continue;
@@ -64,6 +58,9 @@ for(const cells of lines) {
             : '';
         return `${c[0]}${other} ${c[4]}`;
     }).join('\n');
+
+    if(word === '' || [pinyin, word,words, definitions].find(x => typeof x !== 'string') !== undefined)
+        throw JSON.stringify([pinyin, word,words, definitions]);
 
     const parts = [pinyin, word, words, definitions]
         .map(csvEscape);

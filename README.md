@@ -7,7 +7,7 @@
 This list was automatically compiled from the TOCFL word-list spreadsheet.
 * It includes all word lists in order of difficulty.
 * It adds English translations from [CC-CEDICT](https://cc-cedict.org)
-* Includes entries for single characters in composite words that were not included in the original list, composite word entries always come after their contained character entries.
+* Includes entries for single characters in composite words that were not included in the original list, composite word entries always come after their contained character entries (look in the file called `tocfl-and-chars.tsv`).
 
 ---
 

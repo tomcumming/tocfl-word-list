@@ -18,7 +18,7 @@ const dictionaryDefs = cccedict.parseFile(dictionaryFile);
 for(const def of dictionaryDefs)
     tradDefLookup.set(def.traditional, def);
 
-const fileName = './dist/tocfl.tsv';
+const fileName = './dist/tocfl-and-chars.tsv';
 const contents = fs.readFileSync(`${fileName}`, 'utf8');
 
 let lines = contents

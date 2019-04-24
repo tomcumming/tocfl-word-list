@@ -1,9 +1,11 @@
 {
     "scripts": {
-        "tocfl": "mkdir -p dist && node main.js ./data/*.csv > dist/tocfl.csv && node main.js --tabs ./data/*.csv > dist/tocfl.tsv",
-        "simplified": "node simplified.js > ./dist/simplified.csv && node simplified.js --tabs > ./dist/simplified.tsv",
+        "tocfl-chars": "node tocfl-chars.js ./data/*.csv > dist/tocfl-and-chars.csv && node tocfl-chars.js --tabs ./data/*.csv > dist/tocfl-and-chars.tsv",
+        "tocfl-words": "node tocfl-words.js > ./dist/tocfl.csv && node tocfl-words.js --tabs > ./dist/tocfl.tsv",
+        "simplified-chars": "node simplified-chars.js > ./dist/simplified-and-chars.csv && node simplified-chars.js --tabs > ./dist/simplified-and-chars.tsv",
+        "simplified-words": "node simplified-words.js > ./dist/simplified.csv && node simplified-words.js --tabs > ./dist/simplified.tsv",
         "tts": "node tts.js > ./dist/tts.csv && node tts.js --tabs > ./dist/tts.tsv",
-        "start": "npm run tocfl && npm run simplified && npm run tts"
+        "start": "mkdir -p dist && npm run tocfl-chars && npm run tocfl-words && npm run simplified-chars && npm run simplified-words && npm run tts"
     },
     "devDependencies": {
         "@types/node": "^10.5.8"
