@@ -21,7 +21,7 @@ let lines = contents
 
 // write header
 {
-    const headers = ['Pinyin', 'FirstWord', 'AllWords', 'Definitions']
+    const headers = ['Pinyin', 'AllWords', 'Definitions']
         .map(v => `"${v}"`)
         .join(seperationCharacter) + '\n';
     process.stdout.write(headers);
@@ -41,7 +41,7 @@ let written = new Set();
 
 for(const cells of lines) {
 
-    const [ word, pinyin, otherPinyin, level, firstTrn, trns ] = cells;
+    const [ _word, pinyin, otherPinyin, level, firstTrn, trns ] = cells;
 
     if(written.has(pinyin))
         continue;
@@ -56,13 +56,16 @@ for(const cells of lines) {
         const other = c[2] !== ''
             ? ` (${c[2]})`
             : '';
-        return `${c[0]}${other} ${c[4]}`;
+        const otherTrans = c[5] === ''
+            ? ''
+            : `, ${c[5]}`;
+        return `${c[0]}${other} ${c[4]}${otherTrans}`;
     }).join('\n');
 
-    if(word === '' || [pinyin, word,words, definitions].find(x => typeof x !== 'string') !== undefined)
-        throw JSON.stringify([pinyin, word,words, definitions]);
+    if([pinyin, words, definitions].find(x => typeof x !== 'string') !== undefined)
+        throw JSON.stringify([pinyin, words, definitions]);
 
-    const parts = [pinyin, word, words, definitions]
+    const parts = [pinyin, words, definitions]
         .map(csvEscape);
 
     process.stdout.write(parts.join(seperationCharacter) + '\n');
