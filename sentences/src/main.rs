@@ -4,7 +4,11 @@ use jieba_rs::Jieba;
 use unicode_segmentation::UnicodeSegmentation;
 
 fn split_on_comma_etc(sentence: &str) -> Vec<&str> {
-    sentence.split(",").flat_map(|s| s.split("，")).collect()
+    sentence
+        .split(",")
+        .flat_map(|s| s.split("，"))
+        .flat_map(|s| s.split_whitespace())
+        .collect()
 }
 
 fn main() -> std::io::Result<()> {
@@ -26,7 +30,8 @@ fn main() -> std::io::Result<()> {
             .filter(|s| !s.trim().is_empty())
             .cloned()
             .collect();
-        println!("{:?}", words);
+
+        println!("{}", serde_json::to_string(&(sentence, words)).unwrap());
     }
 
     Ok(())
