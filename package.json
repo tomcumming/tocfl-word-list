@@ -8,7 +8,8 @@
         "start": "mkdir -p dist && npm run tocfl-chars && npm run tocfl-words && npm run simplified-chars && npm run simplified-words && npm run tts"
     },
     "devDependencies": {
-        "@types/node": "^10.5.8"
+        "@types/node": "^10.5.8",
+        "typescript": "^5.6.3"
     },
     "dependencies": {
         "parse-cc-cedict": "^2.1.0"

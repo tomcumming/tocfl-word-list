@@ -65,13 +65,13 @@ const values = rawValues
     const dictionaryDefs = cccedict.parseFile(dictionaryFile);
     let dictionary = new Map();
     for(const def of dictionaryDefs) {
-        if(dictionary.has(def.traditional))
-            dictionary.get(def.traditional).push(def);
-        else
-            dictionary.set(def.traditional, [ def ]);
+        const words = Array.from(new Set([def.traditional, def.simplified]));
 
-        if(def.traditional !== def.simplified)
-            dictionary.set(def.simplified, dictionary.get(def.traditional));
+        for(const word of words) {
+            const existing = dictionary.get(word) || [];
+            existing.push(def);
+            dictionary.set(word, existing);
+        }
     }
 
     function findInDic(word) {
